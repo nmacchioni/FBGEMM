@@ -16,7 +16,6 @@ import numpy as np
 import torch
 from fbgemm_gpu.runtime_monitor import TBEStatsReporter, TBEStatsReporterConfig
 from fbgemm_gpu.split_embedding_configs import SparseType
-
 from fbgemm_gpu.split_embedding_utils import round_up
 from fbgemm_gpu.split_table_batched_embeddings_ops_common import (
     CacheAlgorithm,
